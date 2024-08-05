@@ -1,0 +1,46 @@
+<div class="m-2 ">
+    <div class="d-flex justify-content-between bg-primary p-2 text-white fs-6 mb-1">
+        <span>旅游景点</span><span>more&gt;&gt;</span>
+    </div>
+    <div class="d-flex bg-light">
+        <img src="../assets/img/tu010.jpg" class="align-self-start img-fluid  me-3">
+        <p class="flex-grow-1"> 从星海广场沿中央大道北行500米左右是星海会展中心，南行500米左右是广袤无垠的大海，中央大道红砖铺地，西侧芳草如茵，小黄叶杨整齐组成图案，每隔不远就立有一支航标造型的石柱灯，那种浓郁的海港风情自然流露。 南部的百年城雕是一本翻开的书，寓意深刻，城雕前100双脚印揭示了大连一步一个脚印地走过了百年，在城雕上踱步，眼前无际的大海奔流不息。
+        </p>
+    </div>
+</div>
+<div class="m-2">
+    <div class="d-flex justify-content-between flex-row-reverse bg-primary p-2 text-white fs-6 mb-1">
+        <span>购物街区</span>
+        <span>more&gt;&gt;</span>
+    </div>
+    <div class="d-flex flex-row-reverse bg-light">
+        <img src="../assets/img/tu09.jpg" class="align-self-start img-fluid ms-3">
+        <p class="flex-grow-1"> 沃尔玛、家乐福、百盛三家大型超市，罗斯福、麦凯乐、友谊商场、百盛、锦辉五家综合商场，它们一起构建起西安路商圈的主要框架。从百盛的兴起，到家乐福的进驻，再到罗斯福的开业，西安路商圈周边的配套设施不断完善，已经成为一个购物，餐饮，休闲，娱乐一站式购物街区。
+        </p>
+    </div>
+</div>
+<div class="m-2">
+    <div class="d-flex justify-content-between bg-primary p-2 text-white fs-6 mb-2">
+        <span>旅游图库</span>
+        <span>more&gt;&gt;</span>
+    </div>
+    <div class="d-flex bg-light justify-content-evenly">
+        <img src="../assets/img/tu3.jpg" class="img-fluid  align-self-start">
+        <img src="../assets/img/tu6.jpg" class="img-fluid  align-self-start">
+        <img src="../assets/img/tu4.jpg" class="img-fluid  align-self-start">
+        <img src="../assets/img/tu5.jpg" class="img-fluid  align-self-start">
+    </div>
+</div>
+<div class="mx-3">
+    <div class="d-flex bg-primary p-2 justify-content-between text-white fs-6 mb-2 flex-row-reverse">
+        <span>旅游景点</span>
+        <span>more&gt;&gt;</span>
+    </div>
+    <div class="d-flex flex-row-reverse bg-light">
+        <img src="../assets/img/tu7.jpg" class="img-fluid ms-3 align-self-start">
+        <p class="flex-grow-1"> 旅顺博物馆藏青铜器在国内外有重要地位，其时间跨度从商代至辽金时代，种类有兵器、礼器、乐器、水器及杂器等
+        </p>
+    </div>
+</div>
+
+content/?article={{title}}

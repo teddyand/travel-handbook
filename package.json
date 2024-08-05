@@ -1,0 +1,22 @@
+{
+  "name": "express-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Express Demo Using liquidjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "harttle",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "liquidjs": "*"
+  },
+  "devDependencies": {
+    "github-markdown-css": "^5.6.1",
+    "markdown": "^0.5.0",
+    "marked": "^13.0.2"
+  }
+}

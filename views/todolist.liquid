@@ -1,0 +1,35 @@
+{% layout 'layout' %}
+
+{% include 'header' %}
+
+
+
+
+
+
+
+
+<div class="container my-2">
+    <div class="card bg-light px-1">
+        <img alt="" src="../assets/img/banner1.jpg" class="img-responsive rounded mw-100"/>
+        <h2 class="my-3">欢迎您到大连来</h2>
+        <p>大连是中国著名的避暑胜地和旅游热点城市，依山傍海，气候宜人……</p>
+        <p><a class="btn btn-primary" href="http://localhost:3000/city" role="button">更多 &raquo;</a></p>
+    </div>
+</div>
+<div class="container">
+    <div class="row">        
+  {% for todo in todos %}
+    {% include 'todo' %}
+  {% endfor %}
+	</div>
+</div>
+
+
+
+
+
+{% block 'footer' %}  
+  {% include 'footer' %}
+{% endblock %}
+

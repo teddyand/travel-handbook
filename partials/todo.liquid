@@ -1,0 +1,9 @@
+
+{% assign ext = ".md"%}
+<div class="col-md">
+     <h3>{{ todo }}  </h3>
+     <p>{{ descriptions[forloop.index0] }}</p>
+     <p ><a class="btn btn-outline-success btn-sm" href="{{ todo | concat: ext
+ | prepend:"http://localhost:3000/markdown/content/?city=dalian&article="}}" role="button">详情 &raquo;</a></p>
+</div>
+

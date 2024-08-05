@@ -1,0 +1,21 @@
+{% layout 'layout' %}
+
+{% block 'header' %}  
+	{% include 'header' %}
+{% endblock %}
+
+
+<ul>
+	{% for title in titleList  %}
+	<li><a class="btn btn-outline-success btn-sm" href="content/?city={{city}}&article={{title}}" role="button">{{title}}</a></li>
+	{% endfor %}
+
+</ul>
+
+
+
+{% block 'footer' %}  
+  {% include 'footer' %}
+{% endblock %}
+
+
